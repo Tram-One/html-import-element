@@ -1,8 +1,4 @@
 class HTMLImport extends HTMLElement {
-	constructor() {
-		super();
-	}
-
 	async connectedCallback() {
 		// src should contain a relative link to the HTML file
 		const htmlSrc = this.getAttribute('src');

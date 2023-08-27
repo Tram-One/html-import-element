@@ -1,6 +1,6 @@
 {
   "name": "html-import-element",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Basic Element to Import HTML Content",
   "files": [
     "html-import-element.js"
