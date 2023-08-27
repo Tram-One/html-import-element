@@ -18,9 +18,10 @@ Just include the following script in your page:
 
 ## Features
 - [x] Supports inline HTML
-- [x] Supports inline CSS
-- [x] Supports inline script
-- [x] Supports external script
+- [x] Supports inline CSS (`<style>...</style>`)
+- [x] Supports external CSS (`<link rel="stylesheet">`)
+- [x] Supports inline script (`<script>...</script>`)
+- [x] Supports external script (`<script src="...">`)
 
 ## Example
 
