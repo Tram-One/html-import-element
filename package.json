@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JRJurman/html-import-element.git"
+    "url": "git+https://github.com/Tram-One/html-import-element.git"
   },
   "author": "Jesse Jurman",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JRJurman/html-import-element/issues"
+    "url": "https://github.com/Tram-One/html-import-element/issues"
   },
-  "homepage": "https://github.com/JRJurman/html-import-element#readme"
+  "homepage": "https://github.com/Tram-One/html-import-element#readme"
 }
