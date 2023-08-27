@@ -1,0 +1,6 @@
+label#external-css-fails {
+	display: none;
+}
+label#external-css-works {
+	display: block!important;
+}
