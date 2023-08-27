@@ -1,6 +1,17 @@
 # html-import-element
 Basic Element to Import HTML Content
 
+```html
+<html-import src="./title.html"></html-import>
+```
+
+## Install
+
+Just include the following script in your page:
+```html
+<script src="https://unpkg.com/html-import-element@1"></script>
+```
+
 ## Example
 
 ```html
@@ -12,7 +23,7 @@ Basic Element to Import HTML Content
 <!-- index.html -->
 <html lang="en">
 	<head>
-		<script src="../html-import-element.js"></script>
+		<script src="https://unpkg.com/html-import-element@1"></script>
 	</head>
 	<body>
 		<html-import src="./title.html"></html-import>

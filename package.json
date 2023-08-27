@@ -1,8 +1,10 @@
 {
   "name": "html-import-element",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Basic Element to Import HTML Content",
-  "files": ["html-import-element.js"],
+  "files": [
+    "html-import-element.js"
+  ],
   "main": "html-import-element.js",
   "scripts": {
     "start": "npx serve ."
