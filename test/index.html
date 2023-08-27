@@ -1,0 +1,27 @@
+<html lang="en">
+	<head>
+		<script src="../html-import-element.js"></script>
+		<style>
+			section {
+				margin-left: 1em;
+			}
+			label {
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>html-import-element</h1>
+		<section>
+			<html-import src="./external-html.html"></html-import>
+			<label id="css-fails"><input readonly type="checkbox">Supports inline CSS</label>
+			<label id="css-works" style="display: none"><input readonly type="checkbox" checked>Supports inline CSS</label>
+			<label><input readonly id="inline-script" type="checkbox">Supports inline script</label>
+			<label><input readonly id="external-script" type="checkbox">Supports external script</label>
+		</section>
+
+		<html-import src="./inline-script.html"></html-import>
+		<html-import src="./external-script.html"></html-import>
+		<html-import src="./inline-css.html"></html-import>
+	</body>
+</html>
