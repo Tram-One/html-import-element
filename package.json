@@ -3,20 +3,38 @@
   "version": "1.0.2",
   "description": "Basic Element to Import HTML Content",
   "files": [
-    "html-import-element.js"
+    "html-import-element.js",
+    "html-import-element.min.js"
   ],
   "main": "html-import-element.js",
   "scripts": {
-    "start": "npx serve ."
+    "start": "npx serve .",
+    "minify": "uglifyjs html-import-element.js -o html-import-element.min.js -c -m",
+    "prepublishOnly": "npm run minify"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Tram-One/html-import-element.git"
   },
-  "author": "Jesse Jurman",
+  "author": {
+    "name": "Jesse Jurman",
+    "email": "j.r.jurman@gmail.com",
+    "url": "https://jrjurman.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Tram-One/html-import-element/issues"
   },
-  "homepage": "https://github.com/Tram-One/html-import-element#readme"
+  "keywords": [
+    "frontend",
+    "web-components",
+    "vanilla",
+    "external",
+    "HTML",
+    "import"
+  ],
+  "homepage": "https://github.com/Tram-One/html-import-element#readme",
+  "devDependencies": {
+    "uglify-js": "^3.17.4"
+  }
 }
