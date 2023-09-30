@@ -5,10 +5,16 @@ class HTMLImport extends HTMLElement {
 
 		// fetch the content
 		const htmlResult = await fetch(htmlSrc);
+		if (!htmlResult.ok) {
+			// if we ran into an error, fail gracefully
+			return;
+		}
+
 		const htmlContent = await htmlResult.text();
 
 		// create an empty element to store new DOM
-		const empty = document.createElement('template')
+		const empty = document.createElement('template');
+
 		empty.innerHTML = htmlContent;
 
 		// if any script tags are added, clone them
